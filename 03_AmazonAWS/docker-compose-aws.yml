@@ -15,7 +15,7 @@ services:
     networks:
       - udemy-network
   backend:
-    image: leandrocgsi/node-react-backend
+    image: allanmrg/node-react-backend
     restart: always
     environment:
       TZ: America/Sao_Paulo
@@ -27,7 +27,7 @@ services:
     networks:
       - udemy-network
   frontend:
-    image: leandrocgsi/node-react-frontend
+    image: allanmrg/node-react-frontend
     restart: always
     environment:
       TZ: America/Sao_Paulo
